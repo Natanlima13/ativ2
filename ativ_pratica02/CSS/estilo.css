@@ -1,5 +1,13 @@
 
-
+@font-face {
+    font-family:notoSerif ;
+    src: url("../fontes/NotoSerif-Regular.ttf");
+}
+html{
+    font-family: notoSerif;
+    font-size: 18px;
+    font-style: normal;
+}
 .navbar{
     background-color: #c00
 }
@@ -52,11 +60,13 @@ h1{
 .bloco2{
     background-color: rgba(255, 255, 255, 0.795);
     border: 2px solid black;
-    padding: 10px;
+    padding: 50px;
+    
     border-top:2px solid black;
     width: 100%;
-    float: left;
+    
     border-radius: 10px;
+    
     
 }
 
@@ -75,7 +85,8 @@ h1{
     padding:18px 10px;
     width:180px;
     margin: 10px;
-    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.548);
+    margin-right: 200px;
 }
 .btnlink2{
     transition-duration: 1s;
@@ -90,7 +101,8 @@ h1{
     padding:18px 10px;
     width:180px;
     margin: 10px;
-    
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.548);
+    margin-right: 200px;
 }
 .btnlink3{
     transition-duration: 1s;
@@ -105,7 +117,7 @@ h1{
     padding:18px 10px;
     width:180px;
     margin: 10px;
-    
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.548);
 }
 .btnlink1:hover{
     transition-duration: 1s;
